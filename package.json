@@ -4,9 +4,12 @@
   "description": "Vercel serverless function that searches YouTube without an API key",
   "main": "api/search.js",
   "scripts": {
+    "start": "node server.js",
     "test": "node test_search.js"
   },
   "author": "",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "youtube-search-without-api-key": "^6.1.0"
+  }
 }
